@@ -2,7 +2,7 @@ local Release = "Beta 7R"
 local NotificationDuration = 6.5
 local ThunderMadeFolder = "Thunder"
 local ConfigurationFolder = ThunderMadeFolder.."/Configurations"
-local ConfigurationExtension = ".rfld"
+local ConfigurationExtension = ".thnd"
 
 
 
