@@ -1868,11 +1868,11 @@ function ThunderMadeLibrary:CreateWindow(Settings)
 
 			Keybind.KeybindFrame.KeybindBox.Focused:Connect(function()
 				CheckingForKey = true
-				Keybind.KeybindFrame.KeybindBox.Text = ""
+				Keybind.KeybindFrame.KeybindBox.Text = "Keybind"
 			end)
 			Keybind.KeybindFrame.KeybindBox.FocusLost:Connect(function()
 				CheckingForKey = false
-				if Keybind.KeybindFrame.KeybindBox.Text == nil or "" then
+				if Keybind.KeybindFrame.KeybindBox.Text == nil or "Keybind" then
 					Keybind.KeybindFrame.KeybindBox.Text = KeybindSettings.CurrentKeybind
 					SaveConfiguration()
 				end
