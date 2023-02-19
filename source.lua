@@ -1,4 +1,4 @@
-local Release = "Beta 7R"
+local Release = "ZAPLEC WAS HERE"
 local NotificationDuration = 6.5
 local ThunderMadeFolder = "Thunder"
 local ConfigurationFolder = ThunderMadeFolder.."/Configurations"
